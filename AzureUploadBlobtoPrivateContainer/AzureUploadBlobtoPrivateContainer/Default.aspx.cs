@@ -130,5 +130,20 @@ namespace AzureUploadBlobtoPrivateContainer
 
             txbUrl.Text = secureURl.ToString();
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(txbBlobName.Text.ToString()))
+            {
+                var blob = this.GetContainer().GetBlockBlobReference(txbBlobName.Text.ToString());
+                //获得SAS URL
+                GetSAS(blob);
+            }
+            else
+            {
+                Lblstatus.Text = "NO File";
+            }
+          
+        }
     }
 }
