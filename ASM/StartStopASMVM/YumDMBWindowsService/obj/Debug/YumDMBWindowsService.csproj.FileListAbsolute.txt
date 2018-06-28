@@ -1,0 +1,12 @@
+D:\Work\Test\YumDMBWindowsService\YumDMBWindowsService\bin\Debug\YumDMBWindowsService.exe.config
+D:\Work\Doc\FY16\Customer\Yum\20150216DMB\20160613DMBService\YumDMBWindowsService\YumDMBWindowsService\bin\Debug\Readme.txt
+D:\Work\Doc\FY16\Customer\Yum\20150216DMB\20160613DMBService\YumDMBWindowsService\YumDMBWindowsService\bin\Debug\StartVM.xml
+D:\Work\Doc\FY16\Customer\Yum\20150216DMB\20160613DMBService\YumDMBWindowsService\YumDMBWindowsService\bin\Debug\StopVM.xml
+D:\Work\Doc\FY16\Customer\Yum\20150216DMB\20160613DMBService\YumDMBWindowsService\YumDMBWindowsService\bin\Debug\StopVM_Deallocated.xml
+D:\Work\Doc\FY16\Customer\Yum\20150216DMB\20160613DMBService\YumDMBWindowsService\YumDMBWindowsService\bin\Debug\YumDMBWindowsService.exe.config
+D:\Work\Doc\FY16\Customer\Yum\20150216DMB\20160613DMBService\YumDMBWindowsService\YumDMBWindowsService\bin\Debug\YumDMBWindowsService.exe
+D:\Work\Doc\FY16\Customer\Yum\20150216DMB\20160613DMBService\YumDMBWindowsService\YumDMBWindowsService\bin\Debug\YumDMBWindowsService.pdb
+D:\Work\Doc\FY16\Customer\Yum\20150216DMB\20160613DMBService\YumDMBWindowsService\YumDMBWindowsService\obj\Debug\YumDMBWindowsService.ProjectInstaller.resources
+D:\Work\Doc\FY16\Customer\Yum\20150216DMB\20160613DMBService\YumDMBWindowsService\YumDMBWindowsService\obj\Debug\YumDMBWindowsService.csproj.GenerateResource.Cache
+D:\Work\Doc\FY16\Customer\Yum\20150216DMB\20160613DMBService\YumDMBWindowsService\YumDMBWindowsService\obj\Debug\YumDMBWindowsService.exe
+D:\Work\Doc\FY16\Customer\Yum\20150216DMB\20160613DMBService\YumDMBWindowsService\YumDMBWindowsService\obj\Debug\YumDMBWindowsService.pdb
