@@ -36,7 +36,7 @@ namespace AzureUploadBlobtoPrivateContainer
 
             var permissions = container.GetPermissions();
             //对Storage的访问权限是 允许public blob
-            permissions.PublicAccess = BlobContainerPublicAccessType.Off;
+            //permissions.PublicAccess = BlobContainerPublicAccessType.Off;
 
             container.SetPermissions(permissions);
         }
