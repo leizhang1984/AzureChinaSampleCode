@@ -29,16 +29,23 @@ namespace AzureUploadBlobtoPrivateContainer
 
         private void EnsureContaierExists()
         {
-            var container = GetContainer();
+            try
+            {
+                var container = GetContainer();
 
-            // 检查container是否被创建，如果没有，创建container
-            container.CreateIfNotExists();
+                // 检查container是否被创建，如果没有，创建container
+                container.CreateIfNotExists();
 
-            var permissions = container.GetPermissions();
-            //对Storage的访问权限是 允许public blob
-            //permissions.PublicAccess = BlobContainerPublicAccessType.Off;
+                var permissions = container.GetPermissions();
+                //对Storage的访问权限是 允许public blob
+                //permissions.PublicAccess = BlobContainerPublicAccessType.Off;
 
-            container.SetPermissions(permissions);
+                container.SetPermissions(permissions);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         private CloudBlobContainer GetContainer()
